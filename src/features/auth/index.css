@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--ind12);
+    min-width: 200px;
+}
+
+.login-form__field {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--ind8);
+}

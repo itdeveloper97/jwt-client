@@ -1,0 +1,24 @@
+:root {
+    --ind8: 8px;
+    --ind12: 12px;
+    --ind16: 16px;
+    --ind24: 24px;
+    --ind32: 32px;
+    --main-bg-color: #fafafa;
+}
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(max-content, 1170px);
+    min-height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+h1 {
+    margin: 0;
+}

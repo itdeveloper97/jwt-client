@@ -1,0 +1,26 @@
+.authorized__layout {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.authorized__header {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--ind24);
+    flex: 0;
+}
+
+.authorized__footer {
+    flex: 0;
+    padding-bottom: var(--ind24);
+}
+
+.authorized__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
