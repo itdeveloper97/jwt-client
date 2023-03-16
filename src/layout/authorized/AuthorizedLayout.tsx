@@ -10,7 +10,6 @@ export const AuthorizedLayout = () => {
         <Outlet />
       </div>
       <div className={"authorized__footer"}>Footer</div>
-      <div></div>
     </div>
   );
 };
