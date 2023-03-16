@@ -1,5 +1,6 @@
-import { Outlet } from "react-router-dom";
 import "./index.css";
+
+import { Outlet } from "react-router-dom";
 
 export const AuthorizedLayout = () => {
   return (
@@ -9,6 +10,7 @@ export const AuthorizedLayout = () => {
         <Outlet />
       </div>
       <div className={"authorized__footer"}>Footer</div>
+      <div></div>
     </div>
   );
 };
